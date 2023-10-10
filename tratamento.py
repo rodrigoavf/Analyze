@@ -1,25 +1,13 @@
 
 # Lê os arquivos base
-import pandas as pd
-pd.options.display.float_format = '{:.2f}'.format
 from datetime import timedelta
 from pandasql import sqldf
 import numpy as np
-from csv import Sniffer as sniffer
-from chardet import detect
-
-def detect_encoding(csv_file):
-    with open(csv_file, 'rb') as file:
-        result = detect(file.read())
-    return result['encoding']
-
-def detect_delimiter(csv_file):
-    with open(csv_file, 'r', encoding=detect_encoding(csv_file)) as file:
-        dialect = sniffer().sniff(file.read(2048))
-    return dialect.delimiter
+import pandas as pd
+pd.options.display.float_format = '{:.2f}'.format
 
 def load_csv(csv_file):
-    return pd.read_csv(csv_file,delimiter=detect_delimiter(csv_file),decimal=",")
+    return pd.read_csv(csv_file,delimiter=";",decimal=",",encoding="utf-8")
 
 # Carrega bases de dados do sistema
 plano_contas_base = load_csv("Plano de contas base.csv")
