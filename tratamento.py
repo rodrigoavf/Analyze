@@ -74,20 +74,16 @@ def calcula_base(balancetes, plano_contas_real):
     # Add coluna "CONTA NEGATIVA"
     plano_contas_real["CONTA NEGATIVA"] = plano_contas_real["DESCRIÇÃO PLANO DE CONTAS"].str.startswith("(-)") & plano_contas_real["DESCRIÇÃO PLANO DE CONTAS"].notna()
 
-    plano_contas_real.head()
-
     # %% [markdown]
     # ## plano_contas_base
 
     # %%
-    plano_contas_base.head()
 
     # %% [markdown]
     # ## balancetes
 
     # %%
     balancetes["MÊS"] = pd.to_datetime(balancetes["MÊS"])
-    balancetes.head()
 
     # %% [markdown]
     # # ETL
@@ -136,7 +132,6 @@ def calcula_base(balancetes, plano_contas_real):
     # Remove colua "MÊS_y" resultante do merge anterior
     base_balancetes.drop(columns=["MÊS_y"],inplace=True)
 
-    base_balancetes.head()
 
     # %%
     # Add coluna "CONTA NEGATIVA ANTERIOR"
@@ -181,7 +176,6 @@ def calcula_base(balancetes, plano_contas_real):
     # Classifica os dados
     base_balancetes.sort_values(by=["CLASSIFICAÇÃO", "MÊS"],ascending=[True,True])
 
-    base_balancetes.head()
 
     # %% [markdown]
     # ## contas_ajuste
@@ -232,7 +226,6 @@ def calcula_base(balancetes, plano_contas_real):
     # Reset index
     contas_ajuste.reset_index(drop=True,inplace=True)
 
-    contas_ajuste.head()
 
     # %% [markdown]
     # ## balancetes_ajustados
@@ -240,15 +233,12 @@ def calcula_base(balancetes, plano_contas_real):
     # %%
     balancetes_ajustados = pd.concat([base_balancetes, contas_ajuste], ignore_index=True)
 
-    balancetes_ajustados.info()
-
     # %% [markdown]
     # ## meses
 
     # %%
     meses = balancetes_ajustados["MÊS"].copy().drop_duplicates().reset_index(drop=True).sort_values().to_frame()
 
-    meses.head()
 
     # %% [markdown]
     # ## contas_balancete
@@ -262,7 +252,6 @@ def calcula_base(balancetes, plano_contas_real):
     # Adiciona coluna GRAU
     contas_balancete["GRAU"] = contas_balancete['CÓDIGO PLANO DE CONTAS'].str.count("\.") + 1
 
-    contas_balancete.head()
 
     # %% [markdown]
     # ## base_final
@@ -327,8 +316,6 @@ def calcula_base(balancetes, plano_contas_real):
 
     base_final.rename(columns={"CÓDIGO PLANO DE CONTAS":"CÓDIGO"},inplace=True)
 
-    base_final.info()
-
     # %%
     indicadores = load_csv("Indicadores.csv")
     indicadores_dict = dict(zip(indicadores["DESCRIÇÃO"], indicadores["DESCRIÇÃO"]
@@ -343,8 +330,6 @@ def calcula_base(balancetes, plano_contas_real):
     indicadores = pd.merge(left=indicadores,
                         right=meses,
                         how="cross")
-
-    indicadores.head()
 
     # %% [markdown]
     # ## Cálculo dos indicadores
@@ -644,6 +629,5 @@ def calcula_base(balancetes, plano_contas_real):
 
     indicadores.sort_values(by=["MÊS","GRUPO","ORDEM"],inplace=True)
     indicadores.reset_index(drop=True, inplace=True)
-    indicadores.head()
 
     return base_final, indicadores
