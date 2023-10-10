@@ -1,0 +1,53 @@
+﻿Código BP;Descrição;Código Plano de Contas;Descrição Plano de Contas;Grau;Nível 1;Nível 2;Nível 3
+BP.1;1 Ativo;;;1;;;
+BP.1.01;1.01 Ativo Circulante;;;2;1 Ativo;;
+BP.1.01.01;1.01.01 Disponibilidades;1.01.01;Disponibilidades;3;1 Ativo;1.01 Ativo Circulante;
+BP.1.01.02;1.01.02 Clientes;1.01.02;Clientes;3;1 Ativo;1.01 Ativo Circulante;
+BP.1.01.03;1.01.03 Estoques;1.01.03;Estoques;3;1 Ativo;1.01 Ativo Circulante;
+BP.1.01.04;1.01.04 Impostos a Recuperar e Compensar;1.01.04;Impostos a Recuperar e Compensar;3;1 Ativo;1.01 Ativo Circulante;
+BP.1.01.05;1.01.05 Adiantamentos;1.01.05;Adiantamentos;3;1 Ativo;1.01 Ativo Circulante;
+BP.1.01.06;1.01.06 Despesas do Exercício Seguinte;1.01.06;Despesas do Exercício Seguinte;3;1 Ativo;1.01 Ativo Circulante;
+BP.1.01.07;1.01.07 Diferido;1.01.07;Despesas Pré-Operacionais;3;1 Ativo;1.01 Ativo Circulante;
+BP.1.01.08;1.01.08 Outros Créditos;1.01.08;Outros Créditos;3;1 Ativo;1.01 Ativo Circulante;
+BP.1.02;1.02 Ativo Não Circulante;;;2;1 Ativo;;
+BP.1.02.01;1.02.01 Realizável A Longo Prazo;;;3;1 Ativo;1.02 Ativo Não Circulante;
+BP.1.02.01.01;1.02.01.01 Aplicações Financeiras - Longo Prazo;1.02.01.01;Aplicações Financeiras - Longo Prazo;4;1 Ativo;1.02 Ativo Não Circulante;1.02.01 Realizável A Longo Prazo
+BP.1.02.01.02;1.02.01.02 Clientes - Longo Prazo;1.02.01.02;Clientes - Longo Prazo;4;1 Ativo;1.02 Ativo Não Circulante;1.02.01 Realizável A Longo Prazo
+BP.1.02.01.03;1.02.01.03 Partes Relacionadas;1.02.01.03;Partes Relacionadas;4;1 Ativo;1.02 Ativo Não Circulante;1.02.01 Realizável A Longo Prazo
+BP.1.02.01.04;1.02.01.04 Depósitos Judiciais;1.02.01.04;Depósitos Judiciais;4;1 Ativo;1.02 Ativo Não Circulante;1.02.01 Realizável A Longo Prazo
+BP.1.02.01.05;1.02.01.05 IRPJ e CSLL Diferidos;1.02.01.05;IRPJ e CSLL Diferidos;4;1 Ativo;1.02 Ativo Não Circulante;1.02.01 Realizável A Longo Prazo
+BP.1.02.01.06;1.02.01.06 Impostos a Recuperar e Compensar - Longo Prazo;1.02.01.06;Impostos a Recuperar e Compensar - Longo Prazo;4;1 Ativo;1.02 Ativo Não Circulante;1.02.01 Realizável A Longo Prazo
+BP.1.02.01.07;1.02.01.07 Despesas Pagas Antecipadamente - Longo Prazo;1.02.01.07;Despesas Pagas Antecipadamente - Longo Prazo;4;1 Ativo;1.02 Ativo Não Circulante;1.02.01 Realizável A Longo Prazo
+BP.1.02.01.08;1.02.01.08 Outros Créditos - Longo Prazo;1.02.01.08;Outros Créditos - Longo Prazo;4;1 Ativo;1.02 Ativo Não Circulante;1.02.01 Realizável A Longo Prazo
+BP.1.02.02;1.02.02 Investimentos;;;3;1 Ativo;1.02 Ativo Não Circulante;
+BP.1.02.02.01;1.02.02.01 Participações em Outras Empresas;1.02.02.01;Participações em Outras Empresas;4;1 Ativo;1.02 Ativo Não Circulante;1.02.02 Investimentos
+BP.1.02.02.02;1.02.02.02 Propriedades para Investimento;1.02.02.02;Propriedades para Investimento;4;1 Ativo;1.02 Ativo Não Circulante;1.02.02 Investimentos
+BP.1.02.03;1.02.03 Imobilizado;1.02.03;Imobilizado;3;1 Ativo;1.02 Ativo Não Circulante;
+BP.1.02.04;1.02.04 Intangível;1.02.04;Intangível;3;1 Ativo;1.02 Ativo Não Circulante;
+BP.1.02.05;1.02.05 Diferido;1.02.05;Despesas Pré-Operacionais - Longo Prazo;3;1 Ativo;1.02 Ativo Não Circulante;
+BP.2;2 Passivo;;;1;;;
+BP.2.01;2.01 Passivo Circulante;;;2;2 Passivo;;
+BP.2.01.01;2.01.01 Fornecedores;2.01.01.01;Fornecedores;3;2 Passivo;2.01 Passivo Circulante;
+BP.2.01.02;2.01.02 Empréstimos e Financiamentos;2.01.01.02;Empréstimos e Financiamentos;3;2 Passivo;2.01 Passivo Circulante;
+BP.2.01.03;2.01.03 Obrigações Fiscais e Sociais;2.01.01.03;Obrigações Fiscais e Sociais;3;2 Passivo;2.01 Passivo Circulante;
+BP.2.01.04;2.01.04 Obrigações Trabalhistas A Pagar;2.01.01.04;Obrigações Trabalhistas A Pagar;3;2 Passivo;2.01 Passivo Circulante;
+BP.2.01.05;2.01.05 Receita Líquida Diferida - Circulante;2.01.01.05;Receita Líquida Diferida - Circulante;3;2 Passivo;2.01 Passivo Circulante;
+BP.2.01.06;2.01.06 Provisões - Curto Prazo;2.01.01.06;Provisões - Curto Prazo;3;2 Passivo;2.01 Passivo Circulante;
+BP.2.01.07;2.01.07 Contas A Pagar;2.01.01.07;Contas A Pagar;3;2 Passivo;2.01 Passivo Circulante;
+BP.2.01.08;2.01.08 Parcelamentos de Impostos;2.01.01.08;Parcelamentos de Impostos;3;2 Passivo;2.01 Passivo Circulante;
+BP.2.01.09;2.01.09 Outras Obrigações;2.01.01.09;Outras Obrigações;3;2 Passivo;2.01 Passivo Circulante;
+BP.2.02;2.02 Passivo Não Circulante;;;2;2 Passivo;;
+BP.2.02.01;2.02.01 Empréstimos e Financiamentos - Longo Prazo;2.02.01.01;Empréstimos e Financiamentos - Longo Prazo;3;2 Passivo;2.02 Passivo Não Circulante;
+BP.2.02.02;2.02.02 Fornecedores - Longo Prazo;2.02.01.02;Fornecedores - Longo Prazo;3;2 Passivo;2.02 Passivo Não Circulante;
+BP.2.02.03;2.02.03 Obrigações Fiscais e Sociais - Longo Prazo;2.02.01.03;Obrigações Fiscais e Sociais - Longo Prazo;3;2 Passivo;2.02 Passivo Não Circulante;
+BP.2.02.04;2.02.04 Provisões - Longo Prazo;2.02.01.04;Provisões - Longo Prazo;3;2 Passivo;2.02 Passivo Não Circulante;
+BP.2.02.05;2.02.05 Outras Obrigações - Longo Prazo;2.02.01.05;Outras Obrigações - Longo Prazo;3;2 Passivo;2.02 Passivo Não Circulante;
+BP.2.02.06;2.02.06 Receita Liquida Diferida LP;2.02.01.06;Receita Liquida Diferida LP;3;2 Passivo;2.02 Passivo Não Circulante;
+BP.2.02.07;2.02.07 Inadimplência Tributária;2.02.01.07;Inadimplência Tributária;3;2 Passivo;2.02 Passivo Não Circulante;
+BP.2.02.08;2.02.08 Partes Relacionadas;2.02.01.08;Partes Relacionadas;3;2 Passivo;2.02 Passivo Não Circulante;
+BP.2.03;2.03 Patrimônio Líquido;;;2;2 Passivo;;
+BP.2.03.01;2.03.01 Capital Social;3.01;Capital Social;3;2 Passivo;2.03 Patrimônio Líquido;
+BP.2.03.02;2.03.02 Reservas;3.02;Reservas;3;2 Passivo;2.03 Patrimônio Líquido;
+BP.2.03.03;2.03.03 Ajustes de Avaliação Patrimonial;3.03;Ajustes de Avaliação Patrimonial;3;2 Passivo;2.03 Patrimônio Líquido;
+BP.2.03.04;2.03.04 Resultado do Exercício;3.04;Resultado do Exercício;3;2 Passivo;2.03 Patrimônio Líquido;
+BP.2.03.05;2.03.05 Resultados Acumulados;3.05;Ajustes de Exercícios Anteriores;3;2 Passivo;2.03 Patrimônio Líquido;

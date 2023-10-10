@@ -1,0 +1,70 @@
+﻿Descrição;Código Plano de Contas;Descrição Plano de Contas
+01 Receita Operacional Bruta;3.04.01.03.04.01.01;Receita da Venda de Produtos de Fabricação Própria
+01 Receita Operacional Bruta;3.04.01.03.04.01.02;Receita da Revenda de Mercadorias
+01 Receita Operacional Bruta;3.04.01.03.04.01.03;Receita da Prestação de Serviços
+01 Receita Operacional Bruta;3.04.01.03.04.01.04;Receita da Venda de Unidades Imobiliárias
+01 Receita Operacional Bruta;3.04.01.03.04.01.05;Receita da Locação de Bens Moveis e Imóveis
+01 Receita Operacional Bruta;3.04.01.03.04.01.06;Receita de Contrato de Construção
+01 Receita Operacional Bruta;3.04.01.03.04.01.07;Receita de Direito de Exploração Serviço Publico
+01 Receita Operacional Bruta;3.04.01.03.04.01.08;Receita Outros
+02 (-) Deduções;3.04.01.03.04.02.01;(-) Devoluções e Abatimentos
+02 (-) Deduções;3.04.01.03.04.02.02;(-) Impostos Sobre Faturamento
+03 (=) Receita Operacional Líquida;3.04.01.03.04.01;01 Receita Bruta
+03 (=) Receita Operacional Líquida;3.04.01.03.04.02;02 (-) Deduções
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.01;(-) Custo dos Produtos de Fabricação Própria Vendidos
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.02;(-) Custo das Mercadorias Revendidas
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.03;(-) Custo dos Serviços Prestados
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.04;(-) Custo das Unidades Imobiliárias Vendidas
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.05;(-) Custo de Construção
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.06;(-) Materiais Diretos
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.07;(-) Materiais Auxiliares
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.08;(-) Mão de Obra
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.09;(-) Energia Elétrica da Fábrica
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.10;(-) Depreciação
+04 (-) CPV/CMV/CSP;3.04.01.03.04.03.11;(-) Outros
+05 (=) Lucro Bruto;3.04.01.03.04.01;01 Receita Operacional Bruta
+05 (=) Lucro Bruto;3.04.01.03.04.02;02 (-) Deduções
+05 (=) Lucro Bruto;3.04.01.03.04.03;04 (-) CPV/CMV/CSP
+06 (-) Despesas com Vendas;3.04.01.03.03.01;(-) Despesas Com Pessoal
+06 (-) Despesas com Vendas;3.04.01.03.03.02;(-) Despesas Gerais
+06 (-) Despesas com Vendas;3.04.01.03.03.03;(-) Despesas Com Promoções e Divulgação
+07 (-) Despesas Gerais e Administrativas;3.04.01.03.01.01;(-) Despesas Com Pessoal
+07 (-) Despesas Gerais e Administrativas;3.04.01.03.01.02;(-) Depreciação e Amortização
+07 (-) Despesas Gerais e Administrativas;3.04.01.03.01.03;(-) Despesas Gerais
+07 (-) Despesas Gerais e Administrativas;3.04.01.03.01.04;(-) Despesas Com Impostos E Taxas
+08 (-) Outras Despesas Operacionais;3.04.01.03.02;(-) Outras Despesas Operacionais
+09 (+) Outras Receitas Operacionais;3.04.01.03.05;Outras Receitas Operacionais
+10 (+) Outras Receitas e Despesas Não Operacionais;3.04.01.03.06.01;Outras Receitas Não Operacionais
+10 (+) Outras Receitas e Despesas Não Operacionais;3.04.01.03.06.02;(-) Outras Despesas Não Operacionais
+11 (=) Lucro Antes do Resultado Financeiro;3.04.01.03.04;01 Lucro Bruto
+11 (=) Lucro Antes do Resultado Financeiro;3.04.01.03.01;02 (-) Despesas Gerais e Administrativas
+11 (=) Lucro Antes do Resultado Financeiro;3.04.01.03.03;03 (-) Despesas com Vendas
+11 (=) Lucro Antes do Resultado Financeiro;3.04.01.03.02;04 (-) Outras Despesas Operacionais
+11 (=) Lucro Antes do Resultado Financeiro;3.04.01.03.05;05 Outras Receitas Operacionais
+11 (=) Lucro Antes do Resultado Financeiro;3.04.01.03.06;06 Outras Receitas e Despesas Não Operacionais
+12 (+) Receitas Financeiras;3.04.01.02.01.01;Juros Ativos
+12 (+) Receitas Financeiras;3.04.01.02.01.02;Descontos Obtidos
+12 (+) Receitas Financeiras;3.04.01.02.01.03;Receita Aplicação Financeira
+12 (+) Receitas Financeiras;3.04.01.02.01.04;Variação Cambial Ativa
+12 (+) Receitas Financeiras;3.04.01.02.01.05;Variação Monetária Ativa
+12 (+) Receitas Financeiras;3.04.01.02.01.06;Receitas de Juros Sobre o Capital Próprio
+12 (+) Receitas Financeiras;3.04.01.02.01.07;Resultados Positivos Equivalência Patrimonial
+12 (+) Receitas Financeiras;3.04.01.02.01.08;Reversão das Perdas Estimadas Decorrentes de Teste de Recuperabilidade (Impairment)
+12 (+) Receitas Financeiras;3.04.01.02.01.09;Receitas Financeiras Decorrentes de Ajustes ao Valor Presente
+12 (+) Receitas Financeiras;3.04.01.02.01.10;Ganho por Compra Vantajosa em Investimentos
+12 (+) Receitas Financeiras;3.04.01.02.01.11;Rendimentos Auferidos com Títulos Públicos
+12 (+) Receitas Financeiras;3.04.01.02.01.12;Outros
+13 (-) Despesas Financeiras;3.04.01.01.01.01;(-) Juros Passivos
+13 (-) Despesas Financeiras;3.04.01.01.01.02;(-) Despesas de Financiamentos
+13 (-) Despesas Financeiras;3.04.01.01.01.03;(-) Despesas Bancarias
+13 (-) Despesas Financeiras;3.04.01.01.01.04;(-) Variação Monetária Passiva
+13 (-) Despesas Financeiras;3.04.01.01.01.05;(-) Variação Cambial Passiva
+13 (-) Despesas Financeiras;3.04.01.01.01.06;(-) Despesas Financeiras Relativas a Arrendamento Mercantil Financeiro
+13 (-) Despesas Financeiras;3.04.01.01.01.07;(-) Despesas Financeiras Decorrentes dos Ajustes ao Valor Presente
+13 (-) Despesas Financeiras;3.04.01.01.01.08;(-) Outros
+14 (=) Lucro Antes do IR e CSLL;3.04.01.02;01 Receitas
+14 (=) Lucro Antes do IR e CSLL;3.04.01.01;02 (-) Despesas
+14 (=) Lucro Antes do IR e CSLL;3.04.01.03;03 Lucro Antes do Resultado Financeiro
+15 (-) IR e CSLL;3.04.02;(-) Provisão para CSLL e IRPJ
+16 (=) Lucro Líquido do Exercício;3.04.01;01 Lucro Antes do IR e CSLL
+16 (=) Lucro Líquido do Exercício;3.04.02;02 (-) Provisão para CSLL e IRPJ

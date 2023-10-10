@@ -1,0 +1,69 @@
+﻿GRUPO;DESCRIÇÃO;EXPLICAÇÃO;ORDEM
+Capital de Giro;Ativo Circulante Operacional;Corresponde aos recursos necessários para o ciclo operacional.;1
+Capital de Giro;Passivo Circulante Operacional;Corresponde ao montante de financiamento operacional não oneroso.;2
+Capital de Giro;Necessidade de Capital de Giro;Corresponde ao volume de aplicações necessário para iniciar o ciclo operacional da empresa. Se ACO>PCO: a empresa necessita de capital de giro. Se ACO<PCO: a empresa não necessita de capital de giro. Se ACO=PCO: a empresa não precisa de outras formas de financiamento, está com excesso de financiamento operacional.;3
+Capital de Giro;Recursos Financeiros de Curto Prazo;Corresponde ao montante a ser quitado no Curto Prazo.;4
+Capital de Giro;Capital de Giro Próprio;Representa os valores do capital circulante pertencentes à empresa, ou seja, o investimento feito por ela mesma, através de recursos próprios.;5
+Capital de Giro;Recursos de Longo Prazo;Corresponde ao capital de giro da empresa através de uma ótica voltada no longo prazo.;6
+Capital de Giro;Financiamento Geral;Corresponde ao montante que engloba as fontes de financiamento de curto prazo, de londo prazo e própio.;7
+Capital de Giro;Faturamento Dia;Corresponde ao faturamento diário da entidade.;8
+Capital de Giro;Necessidade de Capital de Giro em Dias de Venda;Indica quantos dias uma empresa precisa de capital de giro para manter as operações durante o ciclo de vendas.;9
+Capital de Giro;Prazo Médio de Pagamento (PMP);Corresponde ao prazo médio que a empresa consegue para pagar seus fornecedores.;10
+Capital de Giro;Prazo Médio de Recebimento (PMR);Corresponde ao prazo médio que a empresa demora para receber suas vendas diárias.;11
+Capital de Giro;Prazo Médio de Rotação dos Estoques (PMRE);Corresponde a velocidade em dias com que o estoque se transforma em venda.;12
+Capital de Giro;Ciclo Financeiro;Corresponde ao ciclo operacional deduzido o prazo médio de pagamento.;13
+Capital de Giro;Ciclo Operacional;Corresponde ao tempo em dias sem considerar o financiamento dos fornecedores através dos seus prazos.;14
+Econômico;Margem Operacional Sobre Vendas;Representa o quanto se obtém de lucro operacional por cada unidade vendida.;1
+Econômico;Margem Líquida Sobre Vendas;Representa o quanto se obtém de lucro líquido por cada unidade vendida.;2
+Econômico;EBIT;Earns before interest and taxes, ou seja, lucro antes de juros e impostos. Mede a qualidade do lucro operacional.;3
+Econômico;NOPAT Resultado Operacional;Net Operating Profit After Tax (NOPAT), ou seja, lucro operacional líquido após impostos. Representa o resultado gerado pela operação, líquido de impostos *(1-0,34).;4
+Econômico;Investimentos Líquidos;Corresponde a parcela do ativo financiada por bancos.;5
+Econômico;ROI (Retorno do Investimento);É a relação entre a quantidade de dinheiro ganho (ou perdido) com o resultado de um investimento e a quantidade de dinheiro investido.;6
+Econômico;ROA (Retorno Sobre o Ativo);Mede o percentual de lucro que a empresa obtém em relação aos recursos nela investidos.;7
+Econômico;ROE (Retorno Sobre o Patrimônio);Corresponde ao percentual referente a capacidade da empresa em remunerar o seu capital próprio.;8
+Econômico;GAF(Grau de Alavancagem Financeira);Mede quanto o capital de terceiros está contribuindo para gerar resultado para os acionistas. GAF=1=alavancagem nula. GAF>favorável o capital de 3°s está contribuindo para gerar retorno a favor do acionista. GAF<1 desfavorável o capital de 3°s está consumindo o patrimônio. O mesmo significa que os acionistas estão com uma taxa de retorno que é x% superior/inferior à taxa geradora de ativos da empresa. O retorno do acionista é x% melhor/pior do que obteria caso os ativos fossem totalmente financiados por capital próprio.;9
+Econômico;Alavancagem Financeira;Corresponde a relação entre o Passivo Oneroso e o Capital Próprio.;10
+Econômico;Giro do Ativo;Evidencia a velocidade com a qual o investimento se transforma em volume de vendas.;11
+Econômico;EBITDA;Lucros antes de Juros, Impostos, Depreciação e Amortização (Earnings before interest, taxes, depreciation and amortization), mostra a geração operacional de caixa da companhia, em outras palavras, o quanto a empresa gera de recursos apenas com as suas atividades operacionais.;12
+Econômico;Margem EBITDA;Indica a margem de lucro da companhia sem considerar custos como juros, impostos, depreciação e amortização.;13
+Econômico;EVA;Demonstrar se uma empresa está efetivamente criando valor aos seus acionistas.;14
+Econômico;Receita Bruta;Corresponde ao faturamento bruto.;15
+Econômico;CPV/CMV/CSP;Corresponde ao custo do produto vendido, custo da mercadoria vendida ou custo do serviço prestado.;16
+Econômico;CPV/CMV/CSP % da Receita Bruta;Mede a representatividade do CPV/CMV/CSP na receita bruta.;17
+Econômico;Despesa Financeira;Representam o valor de encargos e juros que a empresa deve pagar a credores em empréstimos e financiamentos contraídos.;18
+Econômico;Despesa Financeira % da Receita Bruta;Mede a representatividade das despesas financeiras na receita bruta.;19
+Econômico;Spread;Corresponde a diferença entre a taxa de retorno do investimento e o custo médio ponderado de capitais.;20
+Econômico;Margem de Contribuição;Indica a diferença entre receitas e custos diretos e variáveis de uma empresa.;21
+Estruturas de Capitais;Investimentos Totais;Corresponde ao montante financiado pelos Capitais Próprios de terceiros.;1
+Estruturas de Capitais;Passivo Não Oneroso;Corresponde as obrigações de curto prazo que não geram encargos financeiros(juros).;2
+Estruturas de Capitais;Investimentos Líquidos;Corresponde a parcela do ativo financiada por bancos.;3
+Estruturas de Capital;Capital Próprios;Corresponde ao montante de capital financiado pelos sócios.;4
+Estruturas de Capital;Capital de Terceiros;Corresponde ao montante captado junto aos bancos.;5
+Estruturas de Capitais;Participação do Capital Próprio (Ke);Corresponde ao percentual do investimento líquido que é financiado pelos capitais próprios.;6
+Estruturas de Capitais;Participação do Capital de Terceiros (Ki);Corresponde ao percentual do investimento líquido que é financiado pelos capitais de terceiros.;7
+Estruturas de Capitais;Custo do Capital Próprio (Ke);Corresponde ao percentual a que são remunerados os capitais próprios.;8
+Estruturas de Capitais;Custo do Capital de Terceiros (Ki);Corresponde ao percentual a que são remunerados os capitais de terceiros.;9
+Estruturas de Capitais;RF - CDI;Corresponde a taxa livre de risco.;10
+Estruturas de Capitais;RF - T-Bond;Representa o rendimento de títulos do governo dos EUA, usado como referência para investimentos de baixo risco.;11
+Estruturas de Capitais;RM - SELIC;Corresponde a taxa de remuneração de uma carteira de mercado.;12
+Estruturas de Capitais;Beta;"Corresponde ao fator beta, esse índice mede a variação de uma ação em relação a uma carteira de mercado diversificada. Tem a finalidade de medir o risco, ou seja, os fatores de mercado que afetam as empresas. Portanto ele irá medir quanto um ativo está sujeito as variações incontroláveis do mercado e do ambiente. Ele mede a relação entre o retorno de um mercado e o retorno de um ativo. Quanto maior for o Beta, mais elevado se apresenta o risco da Ação em relação ao mercado, e ao mesmo tempo é maior o seu retorno esperado. Quando b=1 o ativo será chamado de ""ativo médio"", pois sua variação tende a acompanhar o mercado. b=1ativo neutro.";13
+Estruturas de Capitais;RP - Risco País;É um indicador utilizado para orientar os investidores estrangeiros a respeito da situação financeira de um mercado emergente.;14
+Estruturas de Capitais;WACC;Corresponde ao custo médio ponderado de capitais.;15
+Estruturas de Capital;Garantia de Capital de Terceiros;Corresponde a relação entre o capital de terceiros e o capital prórpio.;16
+Estruturas de Capitais;Composição do Endividamento;Corresponde ao percentual de endividamento no curto prazo.;17
+Estruturas de Capitais;Endividamento Geral;Corresponde ao percentual que indica a representatividade do endividamento total frente ao Patrimônio Líquido.;18
+Estruturas de Capitais;Endividamento Financeiro;Corresponde ao percentual que indica a representatividade do endividamento com empréstimos frente ao Patrimônio Líquido.;19
+Estruturas de Capitais;Grau de Endividamento Tributário;Corresponde ao percentual que indica quanto o endividamento tributário representa do Patrimônio Líquido.;20
+Estruturas de Capitais;Grau de Imobilizações;Corresponde ao percentual que indica a representatividade do imobilizado frente ao Patrimônio Líquido.;21
+Estruturas de Capitais;Grau de Permanência do Ativo;Corresponde ao percentual de representatividade do Imobilizado frente ao Ativo total.;22
+Situação Financeira;Liquidez Circulante;Corresponde a capacidade de pagamento da empresa no curto prazo.;1
+Situação Financeira;Liquidez Seca;Corresponde a capacidade de pagamento da empresa no curto prazo sem considerar os estoques.;2
+Situação Financeira;Liquidez Imediata;Corresponde a capacidade de pagamento da empresa utilizando para isso somente as suas disponiblilidades .;3
+Situação Financeira;Liquidez Geral;Corresponde a capacidade de pagamento da empresa no curto e no longo prazo.;4
+Situação Financeira;Caixa Gerado Nas Operações;Evidencia o consumo ou liberação de caixa gerado nas operações da empresa.;5
+Situação Financeira;Capacidade de Quitação dos Empréstimos;Corresponde ao tempo necessário para liquidar os empréstimos. A divisão inversa nos remete ao percentual dos empréstimos em relação ao caixa gerado na operação.;6
+Situação Financeira;Taxa de Retorno de Caixa;Corresponde a relação da geração de caixa com o montante total de investimentos.;7
+Situação Financeira;Nível de Recebimento de Vendas;Corresponde ao percentual que evidencia tudo aquilo que foi vendido e transformado em caixa.;8
+Situação Financeira;Geração Caixa vs Capital Próprio;Corresponde a geração de caixa relacionada ao Capital Próprio.;9
+Situação Financeira;Variações Nos Ativos e Passivos;Evidencia o consumo ou liberação de caixa ocorrida entre as contas de ativos e passivos.;10
+Situação Financeira;Caixa Líquido das Atividades Operacionais;Mede o fluxo de caixa gerado pelas operações principais de uma empresa.;11
