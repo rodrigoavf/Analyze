@@ -97,14 +97,14 @@ def main():
                                             x="SALDO ATUAL",
                                             y="DESCRIÇÃO",
                                             color="DESCRIÇÃO",
-                                            color_discrete_map={'Ativo Circulante': 'navy', 'Ativo Não Circulante': 'maroon'}))
+                                            color_discrete_map={'Ativo Circulante': 'blue', 'Ativo Não Circulante': 'red'}))
             with col2:
                 st.header("Passivo")
                 st.plotly_chart(px.bar(st.session_state["dados"][(st.session_state["dados"]['CÓDIGO']=="2.01") | (st.session_state["dados"]['CÓDIGO']=="2.02") | (st.session_state["dados"]['CÓDIGO']=="3")],
                                             x="SALDO ATUAL",
                                             y="DESCRIÇÃO",
                                             color="DESCRIÇÃO",
-                                            color_discrete_map={'Passivo Circulante': 'orange', 'Passivo Não-Circulante': 'navy', 'Patrimônio Líquido': 'green'}))
+                                            color_discrete_map={'Passivo Circulante': 'orange', 'Passivo Não-Circulante': 'blue', 'Patrimônio Líquido': 'green'}))
 
 
 if __name__ == "__main__":
