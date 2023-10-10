@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-from tratamento.py import calcula_base, balancetes as demo_balancetes, plano_contas_real as demo_plano_contas
+from tratamento import calcula_base, balancetes as demo_balancetes, plano_contas_real as demo_plano_contas
 pd.options.display.float_format = '{:.2f}'.format
 from streamlit_extras.add_vertical_space import add_vertical_space
 from streamlit_extras.dataframe_explorer import dataframe_explorer
