@@ -85,7 +85,7 @@ def main():
                                     y="SALDO ATUAL",
                                     color="DESCRIÇÃO",
                                     markers=True,
-                                    color_discrete_map={'Ativo': 'navy', 'Passivo': 'maroon'}
+                                    color_discrete_map={'Ativo': 'blue', 'Passivo': 'red'}
                                     ),
                                     use_container_width=True)
 
